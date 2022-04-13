@@ -13,6 +13,7 @@
 		8C6D27AD27E00446005CDBE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D27AB27E00446005CDBE5 /* Main.storyboard */; };
 		8C6D27AF27E0044A005CDBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D27AE27E0044A005CDBE5 /* Assets.xcassets */; };
 		8C6D27B227E0044A005CDBE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6D27B027E0044A005CDBE5 /* LaunchScreen.storyboard */; };
+		8C6D27DA27E40A7F005CDBE5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6D27D927E40A7F005CDBE5 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8C6D27AE27E0044A005CDBE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C6D27B127E0044A005CDBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C6D27B327E0044A005CDBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6D27D927E40A7F005CDBE5 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8C6D27A427E00446005CDBE5 /* OjoDeBuey */ = {
 			isa = PBXGroup;
 			children = (
+				8C6D27D927E40A7F005CDBE5 /* AboutViewController.swift */,
 				8C6D27A527E00446005CDBE5 /* AppDelegate.swift */,
 				8C6D27A727E00446005CDBE5 /* SceneDelegate.swift */,
 				8C6D27A927E00446005CDBE5 /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				8C6D27AA27E00446005CDBE5 /* ViewController.swift in Sources */,
 				8C6D27A627E00446005CDBE5 /* AppDelegate.swift in Sources */,
+				8C6D27DA27E40A7F005CDBE5 /* AboutViewController.swift in Sources */,
 				8C6D27A827E00446005CDBE5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,20 +293,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25Z9XF3KZ9;
+				DEVELOPMENT_TEAM = 6Q8QFTU32N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OjoDeBuey/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.geeklagunero.OjoDeBuey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applaguna.OjoDeBuey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,20 +323,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25Z9XF3KZ9;
+				DEVELOPMENT_TEAM = 6Q8QFTU32N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OjoDeBuey/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.geeklagunero.OjoDeBuey;
+				PRODUCT_BUNDLE_IDENTIFIER = com.applaguna.OjoDeBuey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
